@@ -1,29 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Gas Stove</title>
-  <link rel="stylesheet" href="chai.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Gas Stove</title>
+    <link rel="stylesheet" href="chai.css">
 </head>
+
 <body>
-    <div class="container">
+     <div class="container">
         <div class="pan"></div>
         <div class="top"></div>
         <div class="circle">
             <div class="tea"></div>
         </div>
         <div class="handle"></div>
+    </div> 
+    <div class="stove-container">
+        <!-- <div class="burner">
+            <div class="flame" id="flame"></div>
+        </div>
+         -->
+         <div class="burner left">
+            <div class="inner-ring"></div>
+        <div class="outer-ring"></div>
+        <div class="stand">
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
+        </div>
+          </div>
+          <div class="burner right">
+            <div class="inner-ring"></div>
+            <div class="outer-ring"></div>
+            <div class="stand">
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+            </div>
+          </div>
+        <div class="controls">
+            <!-- <button class="button" id="toggleButton">On</button> -->
+        </div>
+        
     </div>
-  <div class="stove-container">
-    <div class="burner">
-      <div class="flame" id="flame"></div>
+    <div class="stove-container2">
+        <div class="regulator" data-burner="1"></div>
+        <div class="regulator" data-burner="2"></div>
     </div>
-    <div class="controls">
-      <button class="button" id="toggleButton">On</button>
+    <div class="stove-container3">
     </div>
-  </div>
-  <script src="Chai.js"></script>
+    <div class="stove-container4">
+    </div>
+    <!-- <div class="regulator" data-burner="1"></div>
+    <div class="regulator" data-burner="2"></div> -->
+    <script src="chai.js"></script>
 </body>
+
 </html>
